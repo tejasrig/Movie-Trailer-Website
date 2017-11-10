@@ -1,8 +1,8 @@
-#Importing modules and files as necessary
+# Importing modules and files as necessary
 import fresh_tomatoes
 import media
 
-#Defining various instances(Movies) of Movie Class below. 
+# Defining various instances(Movies) of Movie Class below. 
 ratatoullie=media.Movie("Ratatoullie","A story of a Rat and his love for cooking","https://54disneyreviews.files.wordpress.com/2015/07/ratatouille1.jpg",
                         "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 transformers=media.Movie("Transformers","Autobots and the Decepticons","https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg",
@@ -16,8 +16,8 @@ castaway=media.Movie("Cast Away","At the edge of the world, his journey begins",
 davincicode=media.Movie("The da vinci code","Seek the Truth","https://upload.wikimedia.org/wikipedia/en/e/e9/The_da_vinci_code_final.jpg",
                         "https://www.youtube.com/watch?v=-rMElSGZpV4")
 
-#Defining a list with all the instaces created above
+# Defining a list with all the instaces created above
 movies=[ratatoullie, transformers, logan, forestgump, castaway, davincicode]
 
-#Passing the list of movies to Freshtomatoes File
+# Passing the list of movies to Freshtomatoes File
 fresh_tomatoes.open_movies_page(movies)
