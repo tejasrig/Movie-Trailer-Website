@@ -1,5 +1,6 @@
 import webbrowser
-class Movie():
+class Movie(): # Class to hold Movie instances
+    """This class holds the attributes needed for a movie"""
     def __init__(self,mov_title,mov_storyline,poster_image,trailer_yt):
         self.title = mov_title
         self.storyline = mov_storyline
